@@ -1,0 +1,316 @@
+@charset "utf-8";
+body {
+    font-family: 'Noto Sans KR',sans-serif;
+}
+/* Safe Area */
+.w1280 {
+    width: 1280px;
+    margin: 0 auto;
+}
+#wrap {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+/* Header */
+header {
+    height: 740px;
+    background-image: url('../images/romania_header.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 24px;
+}
+header .logo_gnb_left {
+    width: 1170px;
+    /* 플롯 */
+    float: left;
+}
+header .logo {
+    width: 110px;
+    /* 플롯 */
+    float: left;
+    margin-top: 10px;
+}
+header nav {
+    /* 플롯 */
+    float: right;
+
+}
+header .gnb {
+    color: #fff;
+    font-weight: 400;
+    margin-right: 100px;
+}
+header .gnb li {
+    margin-top: 24px;
+    margin-left: 24px;
+    /* 플롯 */
+    float: left;
+}
+header .gnb li a:hover {
+    color: #f34059;
+}
+header .search {
+    width: 110px;
+    margin-top: 24px;
+    text-align: right;
+    /* 플롯 */
+    float: right;
+}
+
+/* 이미지 텍스트 데코 */
+header .img_deco {
+    padding-left: 20px;
+}
+header .img_deco h2 {
+    font-size: 72px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 230px;
+    line-height: 98px;
+    margin-bottom: 40px;
+}
+header .img_deco p {
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+header .img_deco button {
+    width: 150px;
+    height: 40px;
+    background-color: #fc1334;
+    border: none;
+    margin-top: 20px;
+}
+header .img_deco button a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+
+/* Section CardBox */
+.card_box {
+    background-color: #f34059;
+}
+/* 3단 CardBox */
+.card_box .card_box_view {
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    /* 플롯 */
+    float: left;
+    margin-right: 40px;
+
+    /* 3단 CardBox 겹치기 */
+    position: relative;
+    left: 0;
+    top: -80px;
+    z-index: 1;
+}
+/* CardBox Text */
+.card_box .card_box_info {
+    padding-bottom: 60px;
+}
+.card_box .card_box_info h2 {
+    font-size: 16px;
+    color: #000;
+    font-weight: 500;
+    /* 플롯 */
+    float: left;
+}
+.card_box .card_box_info h2>span {
+    color: #373636;
+    font-weight: 500;
+    font-size: 12px;
+    font-weight: 300;
+}
+.card_box .card_box_info p {
+    font-size: 14px;
+    color: #807f7f;
+    font-weight: 600;
+    /* 플롯 */
+    float: right;
+}
+.card_box .card_box_info p>img {
+    vertical-align: middle;
+    margin-bottom: 2px;
+}
+/* section about us */
+.about_us{
+    padding:100px 0 140px;
+}
+.about_us .about_us_text{
+    color:#807f7f;
+    text-align: center;
+    margin-bottom: 60px;
+    line-height: 1.5;
+}
+/* Section ABOUTUS */
+.about_us {
+    padding: 100px 0 140px;
+}
+.about_us .about_us_text {
+    color: #807f7f;
+    text-align: center;
+    margin-bottom: 60px;
+    line-height: 1.5;
+}
+.about_us .line {
+    width: 110px;
+    height: 2px;
+    border-bottom: 1px solid #fc3;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+/* article mov */
+.mov{
+    width: 100%;
+    height: 560px;
+    background-image: url('../images/video_film.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    position: relative;
+}
+.mov .video {
+    /* 포지션 */
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    z-index: 1;
+    transform: translateX(-50%);
+}
+
+/* section Why */
+.why {
+    padding-top: 100px;
+    padding-top: 380px;
+    padding-bottom: 160px;
+}
+
+/* Section FAQ */
+.faq_saying {
+    background-color: #dcdcdc;
+    padding: 70px 0 130px;
+}
+/* Aside Banner */
+.banner {
+    width: 100%;
+    height: 230px;
+    background: linear-gradient(90deg,#fe7778,#f34059);
+    cursor: pointer;
+}
+.banner_img img {
+    background-position: center center;
+    margin-top: 90px;
+}
+/* Footer */
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding-top: 100px;
+}
+
+/* footer 로고, SNS영역 */
+.footer .footer_logo {
+    width: 510px;
+}
+.footer .footer_logo dt {
+    margin-bottom: 24px;
+}
+.footer .footer_logo dd {
+    font-size: 14px;
+    color: #fff;
+    line-height: 32px;
+    margin-bottom: 24px;
+}
+.footer .footer_logo dd:last-child{
+    color: #787878;
+}
+.footer .footer_logo .sns {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+/* footer 서비스 */
+.footer .footer_services {
+    width: 250px;
+}
+.footer .footer_services dt {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+.footer .footer_services dd {
+    font-size: 14px;
+    color:#d7d7d7;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.footer .footer_services dd a:hover {
+    color: #fc1334;
+}
+/* footer 어시스턴스 */
+.footer .footer_assistance {
+    width: 250px;
+}
+.footer .footer_assistance dt {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+.footer .footer_assistance dd {
+    font-size: 14px;
+    color: #c7c4c4;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.footer .footer_assistance dd a:hover {
+    color: #fc1334;
+}
+
+/* footer 어바웃 */
+.footer .footer_about {
+    width: 110px;
+}
+.footer .footer_about dt {
+    font-size: 20px;
+    color: #fff;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+.footer .footer_about dd {
+    font-size: 14px;
+    color: #c7c4c4;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.footer .footer_about dd a:hover {
+    color: #fc1334;
+}
+
+/* Copyright */
+.footer .copyright {
+    text-align: center;
+    padding-top: 70px;
+    padding-bottom: 32px;
+}
+.footer .copyright_line {
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 32px;
+}
+
+/* 플롯 레이아웃 */
+.footer_logo,
+.footer_services,
+.footer_assistance,
+.footer_about {
+    float: left;
+}
+
+.copyright {
+    clear: both;
+}
